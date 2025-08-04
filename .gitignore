@@ -1,0 +1,24 @@
+# Build output
+bin/
+obj/
+
+# User-specific files
+*.user
+*.rsuser
+*.suo
+
+# VS Code settings (optional)
+.vscode/
+
+# dotnet-generated debug files
+*.pdb
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Rider or JetBrains
+.idea/
+
+# Other
+*.log
