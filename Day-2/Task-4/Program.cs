@@ -1,15 +1,7 @@
-﻿//  Design a program to Get the degree of 3 student with 4 subject 
-// from user 
+﻿// Design a program to Get the degree of 3 student with 4 subject from user 
 // calculate
-//  □
-//  □
-//  The sum of marks for each student 
+// The sum of marks for each student 
 // The average for each subject
-// in this format:
-// Student1 Subject1 Subject2 Subject3 Subject4 Sum
-// Student2 Subject1 Subject2 Subject3 Subject4 Sum
-// Student3 Subject1 Subject2 Subject3 Subject4 Sum
-//           avg1  avg2  avg3  avg4
 
 using System;
 class Task4
@@ -24,7 +16,7 @@ class Task4
         }
 
         double[,] marks = new double[students.Length, 4];
-        
+
         // Get marks from user
         for (int i = 0; i < students.Length; i++)
         {
