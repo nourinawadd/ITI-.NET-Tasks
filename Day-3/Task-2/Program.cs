@@ -6,7 +6,7 @@ namespace Task1
 {
     internal class Program
     {
-        static string[] Menu = { "New", "Display", "Exit" };
+        static string[] Menu = { "New", "Display", "Sort", "Exit" };
         static int xDistance = (120 - 10) / 2;
         static int yDistance = (30 - 3) / 4;
 
@@ -43,7 +43,8 @@ namespace Task1
                         {
                             case 0: NewMethod(); break;
                             case 1: DisplayMethod(); break;
-                            case 2: exit = true; break;
+                            case 2: SortEmployees(); break;
+                            case 3: exit = true; break;
                         }
                         break;
                 }
@@ -102,6 +103,23 @@ namespace Task1
                     Console.WriteLine(emp.DisplayData());
                     Console.WriteLine(new string('-', 40));
                 }
+            }
+
+            Console.ReadKey();
+        }
+
+        private static void SortEmployees()
+        {
+            if (employees.Count == 0)
+            {
+                Console.Clear();
+                Console.WriteLine("No employee data available to sort.");
+            }
+            else
+            {
+                employees.Sort((e1, e2) => e1.Name.CompareTo(e2.Name));
+                Console.Clear();
+                Console.WriteLine("Employees sorted by name successfully!");
             }
 
             Console.ReadKey();
