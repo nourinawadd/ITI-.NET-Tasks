@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using Raylib_cs;
 
 namespace Task_1
-{ 
+{
     internal class Program
     {
         static void Main(string[] args)
