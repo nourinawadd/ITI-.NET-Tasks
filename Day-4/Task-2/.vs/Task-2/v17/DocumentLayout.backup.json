@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\UNIVERSITY\\Extracurriculars\\ITI .NET\\ITI-.NET-Tasks\\Day-4\\Task-2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{97F1E587-1E2D-4235-A14B-679E0F30E82A}|Task-2.csproj|d:\\university\\extracurriculars\\iti .net\\iti-.net-tasks\\day-4\\task-2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97F1E587-1E2D-4235-A14B-679E0F30E82A}|Task-2.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\UNIVERSITY\\Extracurriculars\\ITI .NET\\ITI-.NET-Tasks\\Day-4\\Task-2\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\UNIVERSITY\\Extracurriculars\\ITI .NET\\ITI-.NET-Tasks\\Day-4\\Task-2\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-10T13:59:06.373Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
