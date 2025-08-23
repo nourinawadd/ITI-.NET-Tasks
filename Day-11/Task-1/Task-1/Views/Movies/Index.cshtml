@@ -1,0 +1,32 @@
+﻿@model IEnumerable<Task_1.Models.Movie>
+@{
+    ViewData["Title"] = "Movies List";
+}
+
+<h1>Movies</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Title</th>
+            <th>Director</th>
+            <th>Release Year</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Id</td>
+                <td>@item.Title</td>
+                <td>@item.Director</td>
+                <td>@item.ReleaseYear</td>
+                <td>
+                    <a asp-action="Details" asp-route-id="@item.Id">Details</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
