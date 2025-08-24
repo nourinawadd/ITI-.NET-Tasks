@@ -1,7 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Task_1.Models;
+using System.Linq;
 
-namespace MovieApp.Controllers
+namespace Task_1.Controllers
 {
     public class MoviesController : Controller
     {
@@ -25,6 +26,22 @@ namespace MovieApp.Controllers
             var movie = _movies.FirstOrDefault(m => m.Id == id);
             if (movie == null) return NotFound();
             return View(movie);
+        }
+
+        // returns the page with the button/JS
+
+        [HttpGet]
+        public IActionResult TestJson()
+        {
+            return View();
+        }
+
+        // returns JSON data
+        [HttpGet]
+        public JsonResult GetMoviesJson()
+        {
+            var data = _movies.Select(m => new { m.Id, m.Title, m.ReleaseYear });
+            return Json(data);
         }
     }
 }
