@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "D:\\UNIVERSITY\\Extracurriculars\\ITI .NET\\ITI-.NET-Tasks\\Day-9\\Task-1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1B610357-3D85-4332-A21F-B9ED9FBB0BDC}|Task-1.csproj|d:\\university\\extracurriculars\\iti .net\\iti-.net-tasks\\day-9\\task-1\\data\\companydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1B610357-3D85-4332-A21F-B9ED9FBB0BDC}|Task-1.csproj|solutionrelative:data\\companydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{1B610357-3D85-4332-A21F-B9ED9FBB0BDC}|Task-1.csproj|d:\\university\\extracurriculars\\iti .net\\iti-.net-tasks\\day-9\\task-1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1B610357-3D85-4332-A21F-B9ED9FBB0BDC}|Task-1.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B610357-3D85-4332-A21F-B9ED9FBB0BDC}|Task-1.csproj|d:\\university\\extracurriculars\\iti .net\\iti-.net-tasks\\day-9\\task-1\\data\\companydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B610357-3D85-4332-A21F-B9ED9FBB0BDC}|Task-1.csproj|solutionrelative:data\\companydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1B610357-3D85-4332-A21F-B9ED9FBB0BDC}|Task-1.csproj|d:\\university\\extracurriculars\\iti .net\\iti-.net-tasks\\day-9\\task-1\\models\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -34,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
@@ -46,8 +46,7 @@
               "RelativeToolTip": "Models\\Project.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-17T03:11:34.142Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-17T03:11:34.142Z"
             },
             {
               "$type": "Document",
@@ -59,8 +58,7 @@
               "RelativeToolTip": "Models\\EmployeeProject.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-17T03:11:32.599Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-17T03:11:32.599Z"
             },
             {
               "$type": "Document",
@@ -72,8 +70,7 @@
               "RelativeToolTip": "Models\\Employee.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-17T03:11:31.743Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-17T03:11:31.743Z"
             },
             {
               "$type": "Document",
@@ -85,31 +82,30 @@
               "RelativeToolTip": "Models\\Department.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-17T03:11:30.161Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-17T03:11:30.161Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "CompanyDbContext.cs",
               "DocumentMoniker": "D:\\UNIVERSITY\\Extracurriculars\\ITI .NET\\ITI-.NET-Tasks\\Day-9\\Task-1\\Data\\CompanyDbContext.cs",
               "RelativeDocumentMoniker": "Data\\CompanyDbContext.cs",
               "ToolTip": "D:\\UNIVERSITY\\Extracurriculars\\ITI .NET\\ITI-.NET-Tasks\\Day-9\\Task-1\\Data\\CompanyDbContext.cs",
               "RelativeToolTip": "Data\\CompanyDbContext.cs",
-              "ViewState": "AgIAACgAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-17T03:11:23.262Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\UNIVERSITY\\Extracurriculars\\ITI .NET\\ITI-.NET-Tasks\\Day-9\\Task-1\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "D:\\UNIVERSITY\\Extracurriculars\\ITI .NET\\ITI-.NET-Tasks\\Day-9\\Task-1\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAE8AAAAAAAAAAAAkwAoAAABPAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-17T02:21:57.227Z",
               "EditorCaption": ""

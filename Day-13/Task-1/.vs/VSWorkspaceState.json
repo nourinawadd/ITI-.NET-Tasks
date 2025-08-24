@@ -1,0 +1,13 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\Task-1",
+    "\\Task-1\\Controllers",
+    "\\Task-1\\Models",
+    "\\Task-1\\Views",
+    "\\Task-1\\Views\\Movies",
+    "\\Task-1\\Views\\Shared"
+  ],
+  "SelectedNode": "\\Task-1\\Views\\Movies\\Index.cshtml",
+  "PreviewInSolutionExplorer": false
+}
