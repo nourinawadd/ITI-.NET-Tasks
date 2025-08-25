@@ -1,7 +1,7 @@
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+using Task_1.Data;
 using Task_1.Models;
-using System.Collections.Generic;
-using System.Linq;
 
 namespace Task_1.ViewComponents
 {
@@ -16,13 +16,16 @@ namespace Task_1.ViewComponents
 
         public IViewComponentResult Invoke()
         {
-            var count = _movies.Count;
-            var avgYear = _movies.Any() ? (int)_movies.Average(m => m.ReleaseYear) : 0;
+            var totalMovies = _movies.Count;
+            var avgReleaseYear = totalMovies > 0 ? _movies.Average(m => m.ReleaseYear) : 0;
 
-            ViewBag.MovieCount = count;
-            ViewBag.AvgYear = avgYear;
+            var model = new MovieStatsViewModel
+            {
+                TotalMovies = totalMovies,
+                AverageReleaseYear = avgReleaseYear
+            };
 
-            return View();
+            return View(model);
         }
     }
 }

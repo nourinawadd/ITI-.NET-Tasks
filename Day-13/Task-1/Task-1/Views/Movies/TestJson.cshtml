@@ -1,26 +1,28 @@
-@{
-    ViewData["Title"] = "Movies via AJAX";
+﻿@{
+    ViewData["Title"] = "Test JSON Fetch";
 }
-<h1>Movies via AJAX</h1>
 
-<button id="loadMovies" class="btn btn-primary mb-2">Load Movies</button>
-<pre id="moviesContainer" class="border rounded p-2"></pre>
+<h2>Test Fetch API - Movies JSON</h2>
+<button id="loadJsonBtn" class="btn btn-primary">Load Movies</button>
+<pre id="jsonContainer" class="border p-3 mt-3"></pre>
 
-<script>
-document.getElementById('loadMovies').addEventListener('click', () => {
-    fetch('/Movies/GetMoviesJson')
-        .then(res => {
-            if (!res.ok) throw new Error('Network response was not ok');
-            return res.json();
-        })
-        .then(data => {
-            // show formatted JSON
-            const formatted = JSON.stringify(data, null, 2);
-            document.getElementById("moviesContainer").textContent = formatted;
-        })
-        .catch(err => {
-            document.getElementById("moviesContainer").textContent =
-                'Error loading data: ' + err.message;
+@section Scripts {
+    <script>
+        document.getElementById('loadJsonBtn').addEventListener('click', () => {
+            fetch('/Movie/GetMoviesJson')
+                .then(response => {
+                    if (!response.ok) throw new Error('Network response was not ok');
+                    return response.json();
+                })
+                .then(data => {
+                    document.getElementById('jsonContainer').textContent =
+                        JSON.stringify(data, null, 2);
+                })
+                .catch(error => {
+                    console.error('Error loading JSON:', error);
+                    document.getElementById('jsonContainer').innerHTML =
+                        `<div class="text-danger">Error loading data: ${error.message}</div>`;
+                });
         });
-});
-</script>
+    </script>
+}

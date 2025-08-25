@@ -1,25 +1,21 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\nouri\\Downloads\\ITI\\ITI-.NET-Tasks\\Day-11\\Task-1\\",
+  "WorkspaceRootPath": "D:\\UNIVERSITY\\Extracurriculars\\ITI .NET\\ITI-.NET-Tasks\\Day-11\\Task-1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{96C0FEB2-B7F4-4FBE-ADD8-F4C35E7E9BF6}|Task-1\\Task-1.csproj|c:\\users\\nouri\\downloads\\iti\\iti-.net-tasks\\day-11\\task-1\\task-1\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{96C0FEB2-B7F4-4FBE-ADD8-F4C35E7E9BF6}|Task-1\\Task-1.csproj|solutionrelative:task-1\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{96C0FEB2-B7F4-4FBE-ADD8-F4C35E7E9BF6}|Task-1\\Task-1.csproj|c:\\users\\nouri\\downloads\\iti\\iti-.net-tasks\\day-11\\task-1\\task-1\\views\\movies\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{96C0FEB2-B7F4-4FBE-ADD8-F4C35E7E9BF6}|Task-1\\Task-1.csproj|d:\\university\\extracurriculars\\iti .net\\iti-.net-tasks\\day-11\\task-1\\task-1\\views\\movies\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{96C0FEB2-B7F4-4FBE-ADD8-F4C35E7E9BF6}|Task-1\\Task-1.csproj|solutionrelative:task-1\\views\\movies\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{96C0FEB2-B7F4-4FBE-ADD8-F4C35E7E9BF6}|Task-1\\Task-1.csproj|c:\\users\\nouri\\downloads\\iti\\iti-.net-tasks\\day-11\\task-1\\task-1\\views\\movies\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{96C0FEB2-B7F4-4FBE-ADD8-F4C35E7E9BF6}|Task-1\\Task-1.csproj|d:\\university\\extracurriculars\\iti .net\\iti-.net-tasks\\day-11\\task-1\\task-1\\views\\movies\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{96C0FEB2-B7F4-4FBE-ADD8-F4C35E7E9BF6}|Task-1\\Task-1.csproj|solutionrelative:task-1\\views\\movies\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{96C0FEB2-B7F4-4FBE-ADD8-F4C35E7E9BF6}|Task-1\\Task-1.csproj|c:\\users\\nouri\\downloads\\iti\\iti-.net-tasks\\day-11\\task-1\\task-1\\controllers\\moviecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{96C0FEB2-B7F4-4FBE-ADD8-F4C35E7E9BF6}|Task-1\\Task-1.csproj|d:\\university\\extracurriculars\\iti .net\\iti-.net-tasks\\day-11\\task-1\\task-1\\controllers\\moviecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{96C0FEB2-B7F4-4FBE-ADD8-F4C35E7E9BF6}|Task-1\\Task-1.csproj|solutionrelative:task-1\\controllers\\moviecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{96C0FEB2-B7F4-4FBE-ADD8-F4C35E7E9BF6}|Task-1\\Task-1.csproj|c:\\users\\nouri\\downloads\\iti\\iti-.net-tasks\\day-11\\task-1\\task-1\\models\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{96C0FEB2-B7F4-4FBE-ADD8-F4C35E7E9BF6}|Task-1\\Task-1.csproj|d:\\university\\extracurriculars\\iti .net\\iti-.net-tasks\\day-11\\task-1\\task-1\\models\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{96C0FEB2-B7F4-4FBE-ADD8-F4C35E7E9BF6}|Task-1\\Task-1.csproj|solutionrelative:task-1\\models\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -30,75 +26,58 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\nouri\\Downloads\\ITI\\ITI-.NET-Tasks\\Day-11\\Task-1\\Task-1\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Task-1\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\nouri\\Downloads\\ITI\\ITI-.NET-Tasks\\Day-11\\Task-1\\Task-1\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Task-1\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAABwAAAAAAAAAAAAAAB0AAAAdAAAAAAAAAA==",
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\UNIVERSITY\\Extracurriculars\\ITI .NET\\ITI-.NET-Tasks\\Day-11\\Task-1\\Task-1\\Views\\Movies\\Details.cshtml",
+              "RelativeDocumentMoniker": "Task-1\\Views\\Movies\\Details.cshtml",
+              "ToolTip": "D:\\UNIVERSITY\\Extracurriculars\\ITI .NET\\ITI-.NET-Tasks\\Day-11\\Task-1\\Task-1\\Views\\Movies\\Details.cshtml",
+              "RelativeToolTip": "Task-1\\Views\\Movies\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-23T17:29:35.607Z",
+              "WhenOpened": "2025-08-25T16:19:14.46Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Users\\nouri\\Downloads\\ITI\\ITI-.NET-Tasks\\Day-11\\Task-1\\Task-1\\Views\\Movies\\Details.cshtml",
-              "RelativeDocumentMoniker": "Task-1\\Views\\Movies\\Details.cshtml",
-              "ToolTip": "C:\\Users\\nouri\\Downloads\\ITI\\ITI-.NET-Tasks\\Day-11\\Task-1\\Task-1\\Views\\Movies\\Details.cshtml",
-              "RelativeToolTip": "Task-1\\Views\\Movies\\Details.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAANAAAAAAAAAA==",
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\UNIVERSITY\\Extracurriculars\\ITI .NET\\ITI-.NET-Tasks\\Day-11\\Task-1\\Task-1\\Views\\Movies\\Index.cshtml",
+              "RelativeDocumentMoniker": "Task-1\\Views\\Movies\\Index.cshtml",
+              "ToolTip": "D:\\UNIVERSITY\\Extracurriculars\\ITI .NET\\ITI-.NET-Tasks\\Day-11\\Task-1\\Task-1\\Views\\Movies\\Index.cshtml",
+              "RelativeToolTip": "Task-1\\Views\\Movies\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-23T14:18:04.043Z",
+              "WhenOpened": "2025-08-25T16:18:54.099Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\nouri\\Downloads\\ITI\\ITI-.NET-Tasks\\Day-11\\Task-1\\Task-1\\Views\\Movies\\Index.cshtml",
-              "RelativeDocumentMoniker": "Task-1\\Views\\Movies\\Index.cshtml",
-              "ToolTip": "C:\\Users\\nouri\\Downloads\\ITI\\ITI-.NET-Tasks\\Day-11\\Task-1\\Task-1\\Views\\Movies\\Index.cshtml",
-              "RelativeToolTip": "Task-1\\Views\\Movies\\Index.cshtml",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAAAAAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-23T14:17:24.477Z",
+              "Title": "MovieController.cs",
+              "DocumentMoniker": "D:\\UNIVERSITY\\Extracurriculars\\ITI .NET\\ITI-.NET-Tasks\\Day-11\\Task-1\\Task-1\\Controllers\\MovieController.cs",
+              "RelativeDocumentMoniker": "Task-1\\Controllers\\MovieController.cs",
+              "ToolTip": "D:\\UNIVERSITY\\Extracurriculars\\ITI .NET\\ITI-.NET-Tasks\\Day-11\\Task-1\\Task-1\\Controllers\\MovieController.cs",
+              "RelativeToolTip": "Task-1\\Controllers\\MovieController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-25T16:18:38.125Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "MovieController.cs",
-              "DocumentMoniker": "C:\\Users\\nouri\\Downloads\\ITI\\ITI-.NET-Tasks\\Day-11\\Task-1\\Task-1\\Controllers\\MovieController.cs",
-              "RelativeDocumentMoniker": "Task-1\\Controllers\\MovieController.cs",
-              "ToolTip": "C:\\Users\\nouri\\Downloads\\ITI\\ITI-.NET-Tasks\\Day-11\\Task-1\\Task-1\\Controllers\\MovieController.cs",
-              "RelativeToolTip": "Task-1\\Controllers\\MovieController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-23T14:15:17.403Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
               "Title": "Movie.cs",
-              "DocumentMoniker": "C:\\Users\\nouri\\Downloads\\ITI\\ITI-.NET-Tasks\\Day-11\\Task-1\\Task-1\\Models\\Movie.cs",
+              "DocumentMoniker": "D:\\UNIVERSITY\\Extracurriculars\\ITI .NET\\ITI-.NET-Tasks\\Day-11\\Task-1\\Task-1\\Models\\Movie.cs",
               "RelativeDocumentMoniker": "Task-1\\Models\\Movie.cs",
-              "ToolTip": "C:\\Users\\nouri\\Downloads\\ITI\\ITI-.NET-Tasks\\Day-11\\Task-1\\Task-1\\Models\\Movie.cs",
+              "ToolTip": "D:\\UNIVERSITY\\Extracurriculars\\ITI .NET\\ITI-.NET-Tasks\\Day-11\\Task-1\\Task-1\\Models\\Movie.cs",
               "RelativeToolTip": "Task-1\\Models\\Movie.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-23T12:00:31.317Z",
+              "WhenOpened": "2025-08-25T16:18:07.48Z",
               "EditorCaption": ""
             }
           ]

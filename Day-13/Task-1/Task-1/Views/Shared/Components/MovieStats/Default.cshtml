@@ -1,4 +1,7 @@
-<div class="alert alert-info my-2">
-    Total Movies: <strong>@ViewBag.MovieCount</strong> |
-    Average Release Year: <strong>@ViewBag.AvgYear</strong>
+﻿@model Task_1.Models.MovieStatsViewModel
+
+<div class="movie-stats">
+    <h3>Movie Statistics</h3>
+    <p><strong>Total Movies:</strong> @Model.TotalMovies</p>
+    <p><strong>Average Release Year:</strong> @Model.AverageReleaseYear</p>
 </div>

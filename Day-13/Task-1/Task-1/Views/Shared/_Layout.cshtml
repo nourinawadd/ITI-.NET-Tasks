@@ -34,8 +34,9 @@
         </nav>
     </header>
     <div class="container">
+        @await Component.InvokeAsync("MovieStats")
+
         <main role="main" class="pb-3">
-            @await Component.InvokeAsync("MovieStats")
             @RenderBody()
         </main>
     </div>

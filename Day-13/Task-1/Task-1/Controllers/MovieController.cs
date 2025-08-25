@@ -1,53 +1,52 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Task_1.Models;
-using System.Linq;
 
-namespace Task_1.Controllers
+namespace MovieApp.Controllers
 {
-    [ApiController]
-    [Route("api/[controller]")]
-    public class MoviesController : ControllerBase
+    public class MoviesController : Controller
     {
-        private readonly ApplicationDbContext _context;
-        public MoviesController(ApplicationDbContext context) { _context = context; }
+        // in memory
+        private static readonly List<Movie> _movies = new()
+        {
+            new Movie { Id = 1, Title = "Inception", Director = "Christopher Nolan", ReleaseYear = 2010 },
+            new Movie { Id = 2, Title = "Spirited Away", Director = "Hayao Miyazaki", ReleaseYear = 2001 },
+            new Movie { Id = 3, Title = "Parasite", Director = "Bong Joon-ho", ReleaseYear = 2019 }
+        };
 
+        // index
+        public IActionResult Index()
+        {
+            return View(_movies);
+        }
+
+        // return json data for fetch api
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<Movie>>> GetMovies()
-            => await _context.Movies.ToListAsync();
-
-        [HttpGet("{id}")]
-        public async Task<ActionResult<Movie>> GetMovie(int id)
+        public IActionResult GetMoviesJson()
         {
-            var movie = await _context.Movies.FindAsync(id);
-            return movie == null ? NotFound() : movie;
+            var movies = _movies.Select(m => new
+            {
+                m.Id,
+                m.Title,
+                m.Director,
+                m.ReleaseYear
+            }).ToList();
+
+            return Json(movies);
+
         }
 
-        [HttpPost]
-        public async Task<ActionResult<Movie>> CreateMovie(Movie movie)
+        // test json ftch page
+        public IActionResult TestJson()
         {
-            _context.Movies.Add(movie);
-            await _context.SaveChangesAsync();
-            return CreatedAtAction(nameof(GetMovie), new { id = movie.Id }, movie);
+            return View();
         }
 
-        [HttpPut("{id}")]
-        public async Task<IActionResult> UpdateMovie(int id, Movie movie)
+        // details
+        public IActionResult Details(int id)
         {
-            if (id != movie.Id) return BadRequest();
-            _context.Entry(movie).State = EntityState.Modified;
-            await _context.SaveChangesAsync();
-            return NoContent();
-        }
-
-        [HttpDelete("{id}")]
-        public async Task<IActionResult> DeleteMovie(int id)
-        {
-            var movie = await _context.Movies.FindAsync(id);
+            var movie = _movies.FirstOrDefault(m => m.Id == id);
             if (movie == null) return NotFound();
-            _context.Movies.Remove(movie);
-            await _context.SaveChangesAsync();
-            return NoContent();
+            return View(movie);
         }
     }
-
 }
