@@ -4,44 +4,50 @@ using System.Linq;
 
 namespace Task_1.Controllers
 {
-    public class MoviesController : Controller
+    [ApiController]
+    [Route("api/[controller]")]
+    public class MoviesController : ControllerBase
     {
-        // in memory
-        private static readonly List<Movie> _movies = new()
-        {
-            new Movie { Id = 1, Title = "Inception", Director = "Christopher Nolan", ReleaseYear = 2010 },
-            new Movie { Id = 2, Title = "Spirited Away", Director = "Hayao Miyazaki", ReleaseYear = 2001 },
-            new Movie { Id = 3, Title = "Parasite", Director = "Bong Joon-ho", ReleaseYear = 2019 }
-        };
+        private readonly ApplicationDbContext _context;
+        public MoviesController(ApplicationDbContext context) { _context = context; }
 
-        // index
-        public IActionResult Index()
+        [HttpGet]
+        public async Task<ActionResult<IEnumerable<Movie>>> GetMovies()
+            => await _context.Movies.ToListAsync();
+
+        [HttpGet("{id}")]
+        public async Task<ActionResult<Movie>> GetMovie(int id)
         {
-            return View(_movies);
+            var movie = await _context.Movies.FindAsync(id);
+            return movie == null ? NotFound() : movie;
         }
 
-        // details
-        public IActionResult Details(int id)
+        [HttpPost]
+        public async Task<ActionResult<Movie>> CreateMovie(Movie movie)
         {
-            var movie = _movies.FirstOrDefault(m => m.Id == id);
+            _context.Movies.Add(movie);
+            await _context.SaveChangesAsync();
+            return CreatedAtAction(nameof(GetMovie), new { id = movie.Id }, movie);
+        }
+
+        [HttpPut("{id}")]
+        public async Task<IActionResult> UpdateMovie(int id, Movie movie)
+        {
+            if (id != movie.Id) return BadRequest();
+            _context.Entry(movie).State = EntityState.Modified;
+            await _context.SaveChangesAsync();
+            return NoContent();
+        }
+
+        [HttpDelete("{id}")]
+        public async Task<IActionResult> DeleteMovie(int id)
+        {
+            var movie = await _context.Movies.FindAsync(id);
             if (movie == null) return NotFound();
-            return View(movie);
-        }
-
-        // returns the page with the button/JS
-
-        [HttpGet]
-        public IActionResult TestJson()
-        {
-            return View();
-        }
-
-        // returns JSON data
-        [HttpGet]
-        public JsonResult GetMoviesJson()
-        {
-            var data = _movies.Select(m => new { m.Id, m.Title, m.ReleaseYear });
-            return Json(data);
+            _context.Movies.Remove(movie);
+            await _context.SaveChangesAsync();
+            return NoContent();
         }
     }
+
 }
