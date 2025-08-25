@@ -1,6 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using Task_1.Data;
 using Task_1.Models;
 
 namespace Task_1.ViewComponents
