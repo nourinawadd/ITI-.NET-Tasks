@@ -1,0 +1,6 @@
+﻿@model IEnumerable<Task_2.Models.Employee>
+
+@foreach (var emp in Model)
+{
+    @await Html.PartialAsync("_EmployeeCard", emp)
+}

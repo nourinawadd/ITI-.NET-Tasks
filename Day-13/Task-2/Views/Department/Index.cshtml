@@ -1,0 +1,25 @@
+﻿@model IEnumerable<Task_2.Models.Department>
+
+@{
+    ViewData["Title"] = "Departments";
+}
+
+<h2>Departments</h2>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Department ID</th>
+            <th>Name</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var dept in Model)
+        {
+            <tr>
+                <td>@dept.DepartmentId</td>
+                <td>@dept.Name</td>
+            </tr>
+        }
+    </tbody>
+</table>

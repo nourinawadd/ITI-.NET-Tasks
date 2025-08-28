@@ -1,0 +1,45 @@
+﻿@{
+    ViewData["Title"] = "Dashboard";
+}
+
+<div class="container">
+    <div class="text-center mb-5">
+        <h1 class="display-4 fw-bold">Welcome to CompanyApp</h1>
+        <p class="lead text-muted">
+            Manage your employees and departments with ease.
+        </p>
+    </div>
+
+    <div class="mb-5">
+        @await Component.InvokeAsync("CompanyData")
+    </div>
+
+    <div class="row text-center">
+        <div class="col-md-6 mb-4">
+            <div class="card shadow-sm border-0 h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Employees</h5>
+                    <p class="card-text text-muted">
+                        Browse and manage all company employees.
+                    </p>
+                    <a asp-controller="Employees" asp-action="Index" class="btn btn-primary">
+                        View Employees
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6 mb-4">
+            <div class="card shadow-sm border-0 h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Departments</h5>
+                    <p class="card-text text-muted">
+                        Explore all company departments.
+                    </p>
+                    <a asp-controller="Department" asp-action="Index" class="btn btn-primary">
+                        View Departments
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

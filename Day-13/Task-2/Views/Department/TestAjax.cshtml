@@ -1,0 +1,19 @@
+﻿@{
+    ViewData["Title"] = "Test Ajax";
+}
+
+<h2>Test Ajax</h2>
+<div id="employeeList"></div>
+
+<script>
+    fetch('/Employees/GetEmployeesAjax')
+        .then(response => response.json())
+        .then(data => {
+            let html = "<ul class='list-group'>";
+            data.forEach(emp => {
+                html += `<li class='list-group-item'>${emp.firstName} ${emp.lastName} (${emp.departmentName})</li>`;
+            });
+            html += "</ul>";
+            document.getElementById("employeeList").innerHTML = html;
+        });
+</script>

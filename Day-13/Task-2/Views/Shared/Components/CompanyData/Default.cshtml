@@ -1,0 +1,10 @@
+﻿@model dynamic
+
+<div class="card shadow-sm mb-3">
+    <div class="card-body text-center">
+        <h5 class="card-title">Company Data</h5>
+        <p><strong>Total Employees:</strong> @Model?.TotalEmployees</p>
+        <p><strong>Total Departments:</strong> @Model?.TotalDepartments</p>
+        <p><strong>Average Salary:</strong> @Model?.AverageSalary.ToString("C")</p>
+    </div>
+</div>
